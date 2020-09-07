@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    align-self: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#wrapper {
+    max-width: 100vw;
+    height: auto;
+}
+
+h1 {
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(106, 20, 50);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:focus {
+    outline: 0;
+}
+
+input:focus {
+    outline: 0;
+}
+
+#header {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(106, 29, 50);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logoSmall {
+    max-width: 35%;
+    margin-left: 20px;
+}
+
+#search {
+    width: 50vw;
+    height: 32px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}
+
+#topNav {
+    width: auto;
+    margin-right: 20px;
+    color: white;
+}
+
+#topNav .fas {
+    margin: 8px;
+}
+
+#topNav .far {
+    margin: 8px;
+}
+
+#buttonActionsHome {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonAction {
+    width: 25vw;
+    height: 10vw;
+    background: rgb(106, 29, 50);
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.buttonAction p {
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.buttonAction a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttonAction a:hover {
+    text-decoration: underline;
+}
+
+.buttonActionTwo {
+    width: 25vw;
+    height: 10vw;
+    background: rgb(106, 29, 50);
+    margin-top: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.buttonActionTwo p {
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.buttonActionTwo a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttonActionTwo a:hover {
+    text-decoration: underline;
+}
+
+.accordion {
+    background-color: rgba(106, 29, 50, 0.0);
+    color: rgb(106, 29, 50);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.4s;
+}
+
+
+.accordion:after {
+    content: '\002B';
+    color: rgb(106, 29, 50);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgba(106, 29, 50, 0.0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+    font-size: 1.2rem;
+    color: rgb(106, 29, 50);
+    font-weight: 300;
+}
+
+#icons {
+    width: 100vw;
+    height: 24.1vh;
+    background-color: rgba(106, 29, 50, 0.4);
+    color: rgb(106, 29, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#icons {
+    margin: 0px;
+}
+
+
+#topRow {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconElement {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconElement p {
+    font-size: 0.75rem;
+    margin: 10px 0px 0px 0px;
+}
+
+#bottomRow {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav {
+    display: none;
+}
+
+.accordionTwo {
+    background-color: rgba(106, 29, 50, 0.0);
+    color: rgb(106, 29, 50);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.4s;
+}
+
+.accordionTwo p {
+    margin: 0px;
+    padding
+}
+
+.accordionTwo:after {
+    content: none;
+}
+
+.activeTwo:after {
+    content: none;
+}
+
+#peopleNav {
+    display: none;
+}
+
+#Spotlight {
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Spotlight p {
+    line-height: 25px;
+}
+
+.lastLine {
+    margin-bottom: 20px;
+}
+
+#campusNews {
+    height: auto;
+    background-color: lightgray;
+}
+
+#campusNewsContent {
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#newsContentTitle {
+    padding-top: 20px;
+}
+
+.newsElement {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.newsPhoto {
+    max-width: 30%;
+}
+
+.newsHeadline {
+    margin-left: 10px;
+}
+
+.newsHeadline p {
+    margin: 0px;
+}
+
+.lastNewsElement {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.buttonMoreNews {
+    width: 30vw;
+    height: 10vw;
+    background: rgb(106, 29, 50);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.buttonMoreNews p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0px;
+    color: white;
+}
+
+#campusNewsContentButton a {
+    color: white;
+    text-decoration: none;
+}
+
+#campusNewsContentButton a:hover {
+    text-decoration: underline;
+}
+
+#events {
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#eventsContent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#strongStories {
+    height: auto;
+    background-color: lightgray;
+}
+
+#strongStoriesContent {
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#strongStoriesTitle {
+    padding-top: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#strongStories p {
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+#strongLastLine {
+    margin-bottom: 0px;
+}
+
+.buttonMoreStrong {
+    width: 30vw;
+    height: 10vw;
+    background: rgb(106, 29, 50);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.buttonMoreStrong p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0px;
+    color: white;
+}
+
+#strongStoriesContentButton a {
+    color: white;
+    text-decoration: none;
+}
+
+#strongStoriesContentButton a:hover {
+    text-decoration: underline;
+}
+
+
+#footer {
+    height: auto;
+    background-color: rgb(106, 29, 50);
+}
+
+#footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#brandLockup {
+    max-width: 95%;
+}
+
+#collegeInfo p {
+    color: white;
+    margin: 5px;
+}
+
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
+}
+
+#socialMenu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#socialMenu .fab {
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#quickLinks p {
+    color: white;
+}
+
+#copyright p {
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#quicklinks a {
+    text-decoration: none;
+    color: white;
+}
+
+#quicklinks a:hover {
+    text-decoration: underline;
+}
+
+#quickLastLine {
+    margin-bottom: 0px;
+}
+
+#copyright {
+    margin-top: 20px;
+}
