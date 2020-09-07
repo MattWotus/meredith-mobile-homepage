@@ -1,0 +1,437 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Meredith College</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="logoSmall">
+                <a href="index.html"><img src="wordmark_white.png" alt="Meredith College"></a>
+            </div>
+            <input type="text" placeholder="Search Function Disabled" id="search">
+            <div id="topNav">
+                <i class="far fa-user fa-2x" onclick="peopleMenu()"></i>
+                <i class="fas fa-search fa-2x" onclick="searchBar()"></i>
+                <i class="fas fa-bars fa-2x" onclick="hamburgerMenu()"></i>
+            </div>
+        </div>
+        <div id="nav">
+            <div id="buttonActionsHome">
+                <button class="buttonActionTwo">
+                    <p><a href="https://www.meredith.edu/applications">Apply</a>
+                    </p>
+                </button>
+                <button class="buttonActionTwo">
+                    <p><a href="https://www.meredith.edu/admissions/visit">Visit</a></p>
+                </button>
+                <button class="buttonActionTwo">
+                    <p> <a href="https://community.meredith.edu/SupportMC">Give</a></p>
+                </button>
+            </div>
+            <button class="accordion">Academics</button>
+            <div class="panel">
+                <a href="https://www.meredith.edu/academics/majors-minors">
+                    <p>Majors and Minors</p>
+                </a>
+                <a href="https://www.meredith.edu/graduate-programs">
+                    <p>Graduate Programs</p>
+                </a>
+                <a href="https://www.meredith.edu/adult-education">
+                    <p>Adult Education</p>
+                </a>
+                <a href="https://www.meredith.edu/continuing-education">
+                    <p>Continuing Education</p>
+                </a>
+            </div>
+            <button class="accordion">Admissions</button>
+            <div class="panel">
+                <a href="https://www.meredith.edu/first-year">
+                    <p>First Year</p>
+                </a>
+                <a href="https://www.meredith.edu/transfer-students">
+                    <p>Transfer</p>
+                </a>
+                <a href="https://www.meredith.edu/international-students">
+                    <p>International</p>
+                </a>
+                <a href="https://www.meredith.edu/adult-education">
+                    <p>Wings/Adult</p>
+                </a>
+                <a href="https://www.meredith.edu/admitted-students">
+                    <p>Admitted Students</p>
+                </a>
+                <a href="https://www.meredith.edu/school-counselors">
+                    <p>School Counselors</p>
+                </a>
+                <a href="https://www.meredith.edu/graduate-programs">
+                    <p>Graduate</p>
+                </a>
+            </div>
+            <button class="accordion">Financial Aid</button>
+            <div class="panel">
+                <a href="https://www.meredith.edu/financial-assistance/financial-assistance-undergraduate-scholarships">
+                    <p>Types of Aid</p>
+                </a>
+                <a href="https://www.meredith.edu/financial-assistance/financial-assistance-employment">
+                    <p>Employment</p>
+                </a>
+                <a href="https://www.meredith.edu/accounting-department/billing-and-payments">
+                    <p>Billing and Refunds</p>
+                </a>
+                <a href="https://www.meredith.edu/financial-assistance/financial-assistance-forms-applications">
+                    <p>Forms and Applications</p>
+                </a>
+                <a href="https://www.meredith.edu/financial-assistance/financial-assistance-staff">
+                    <p>Contact Us</p>
+                </a>
+            </div>
+            <button class="accordion">Student Life</button>
+            <div class="panel">
+                <a href="https://www.meredith.edu/residence-life">
+                    <p>Residence Life</p>
+                </a>
+                <a href="https://www.meredith.edu/commuter-life">
+                    <p>Commuter Life</p>
+                </a>
+                <a href="https://www.meredith.edu/student-life/clubs-organizations">
+                    <p>Clubs and Organizations</p>
+                </a>
+                <a href="https://www.meredith.edu/leadership-service/leadership-programs">
+                    <p>Leadership</p>
+                </a>
+                <a href="https://www.meredith.edu/leadership-service/service-programs">
+                    <p>Service Programs</p>
+                </a>
+            </div>
+            <button class="accordion">Athletics</button>
+            <div class="panel">
+                <a href="https://www.goavengingangels.com/composite">
+                    <p>Schedule</p>
+                </a>
+                <a href="https://community.meredith.edu/Avenging-Angels">
+                    <p>Avenging Angels Club</p>
+                </a>
+                <a href="https://www.goavengingangels.com/information/visitors">
+                    <p>Visitor Guide</p>
+                </a>
+                <a href="https://meredith.prestosports.com/camps/camps-list">
+                    <p>Camps</p>
+                </a>
+            </div>
+            <button class="accordion">About Meredith</button>
+            <div class="panel">
+                <a href="https://www.meredith.edu/about/mission-and-values">
+                    <p>Mission, Vision and Values</p>
+                </a>
+                <a href="https://www.meredith.edu/president">
+                    <p>Office of the President</p>
+                </a>
+                <a href="https://www.meredith.edu/president/strategic-plan">
+                    <p>Strategic Plan</p>
+                </a>
+                <a href="https://www.meredith.edu/beyondstrong">
+                    <p>The Campaign for Meredith</p>
+                </a>
+                <a href="https://www.meredith.edu/academic-partnerships">
+                    <p>Academic Partnerships</p>
+                </a>
+            </div>
+            <button class="accordion">Strongpoints</button>
+            <div class="panel">
+                <a href="https://www.meredith.edu/strongpoints/how-strongpoints-works">
+                    <p>How It Works</p>
+                </a>
+                <a href="https://www.meredith.edu/strongpoints/strongpints-staff">
+                    <p>Staff</p>
+                </a>
+                <a href="https://www.meredith.edu/strongpoints/strongpoints-resources">
+                    <p>Resources</p>
+                </a>
+            </div>
+            <div id="icons">
+                <div id="topRow">
+                    <div class="iconElement">
+                        <a href="https://www.meredith.edu/cultural-arts"><i class="fas fa-palette fa-2x"></i></a>
+                        <p>Arts Events</p>
+                    </div>
+                    <div class="iconElement">
+                        <a href="https://brightspace.meredith.edu/d2l/loginh/"><i class="fas fa-bold fa-2x"></i></a>
+                        <p>Brightspace</p>
+                    </div>
+                    <div class="iconElement">
+                        <a href="https://www.meredith.edu/calendar/month"><i class="far fa-calendar-alt fa-2x"></i></a>
+                        <p>Calendar</p>
+                    </div>
+                    <div class="iconElement">
+                        <a href="https://www.meredith.edu/human-resources/applying-for-a-position"><i
+                                class="fas fa-briefcase fa-2x"></i></a>
+                        <p>Jobs</p>
+                    </div>
+                </div>
+                <div id="bottomRow">
+                    <div class="iconElement">
+                        <a href="https://www.meredith.edu/campus-services"><i class="fas fa-wrench fa-2x"></i></a>
+                        <p>Services</p>
+                    </div>
+                    <div class="iconElement">
+                        <a href="http://infotogo.meredith.edu/home/"><i class="fas fa-book fa-2x"></i></a>
+                        <p>Library</p>
+                    </div>
+                    <div class="iconElement">
+                        <a href="https://my.meredith.edu/Pages/default.aspx"><i class="fab fa-medium-m fa-2x"></i></a>
+                        <p>MyMeredith</p>
+                    </div>
+                    <div class="iconElement">
+                        <a href="https://www.meredith.edu/directory"><i class="fas fa-user fa-2x"></i></a>
+                        <p>People</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="peopleNav">
+            <div id="buttonActionsHome">
+                <button class="buttonActionTwo">
+                    <p><a href="https://www.meredith.edu/applications">Apply</a>
+                    </p>
+                </button>
+                <button class="buttonActionTwo">
+                    <p><a href="https://www.meredith.edu/admissions/visit">Visit</a></p>
+                </button>
+                <button class="buttonActionTwo">
+                    <p> <a href="https://community.meredith.edu/SupportMC">Give</a></p>
+                </button>
+            </div>
+            <button class="accordionTwo"><b>Information For</b></button>
+            <button class="accordionTwo"><a href="https://www.meredith.edu/admissions">
+                    <p>Prospective Students</p>
+                </a></button>
+            <button class="accordionTwo"><a href="https://www.meredith.edu/current-students">
+                    <p>Undergraduate Students</p>
+                </a></button>
+            <button class="accordionTwo"><a href="https://www.meredith.edu/graduate-students">
+                    <p>Graduate Students</p>
+                </a></button>
+            <button class="accordionTwo"><a href="https://www.meredith.edu/faculty-staff">
+                    <p>Faculty & Staff</p>
+                </a></button>
+            <button class="accordionTwo"><a href="https://www.meredith.edu/alumnae">
+                    <p>Alumnae</p>
+                </a></button>
+            <button class="accordionTwo"><a href="https://www.meredith.edu/parents">
+                    <p>Parents</p>
+                </a></button>
+            <button class="accordionTwo"><a href="https://www.meredith.edu/community">
+                    <p>Community</p>
+                </a></button>
+            <button class="accordionTwo"> <a href="https://www.meredith.edu/employers-career-planning">
+                    <p>Employers</p>
+                </a></button>
+            <button class="accordionTwo"><a href="https://www.meredith.edu/en-espanol">
+                    <p>En Español</p>
+                </a></button>
+        </div>
+        <div id="main">
+            <img src="Hero.jpg" alt="Meredith College">
+            <div id="buttonActionsHome">
+                <button class="buttonAction">
+                    <p><a href="https://www.meredith.edu/applications">Apply</a>
+                    </p>
+                </button>
+                <button class="buttonAction">
+                    <p><a href="https://www.meredith.edu/admissions/visit">Visit</a></p>
+                </button>
+                <button class="buttonAction">
+                    <p> <a href="https://community.meredith.edu/SupportMC">Give</a></p>
+                </button>
+            </div>
+            <div id="contentHome">
+                <div id="Spotlight">
+                    <h1>In the Spotlight</h1>
+                    <img src="Impact%20Scholarship.jpg" alt="Meredith Impact Scholarship">
+                    <p>Bachelor the Builder: Holiday Edition</p>
+                    <p>Seasons Greetings from Meredith College! In this year's holiday video, the spotlight is on
+                        Meredith's newest academic building. While President Allen's dog, Bachelor, "works" on the
+                        building site, Dr. Allen visits with students majoring in exercise and sports science and
+                        communication - the programs that will be located in the new building. <a
+                            href="https://www.meredith.edu/campus-growth/communication-and-exercise-sports-science-building">Learn
+                            more »</a></p>
+                    <p>Watch the featured video »</p>
+                    <img src="Campus%20Visit.jpg" alt="Visit Meredith">
+                    <p>Visit Meredith</p>
+                    <p>Visiting Meredith's campus is the best way to
+                        determine whether it's a good fit for you. You can choose to schedule a personal visit or attend
+                        an Open House - or both!</p>
+                    <p class="lastLine"><a href="https://www.meredith.edu/admissions/visit"> Schedule your visit »</a>
+                    </p>
+                </div>
+                <div id="campusNews">
+                    <div id="campusNewsContent">
+                        <h1 id="newsContentTitle">Campus News</h1>
+                        <div class="newsElement">
+                            <img src="News1.jpg" alt="News Headline" class="newsPhoto">
+                            <div class="newsHeadline">
+                                <p><a
+                                        href="https://www.meredith.edu/news/a-look-at-the-numbers-school-of-business-interns-consistently-achieve-excel">A
+                                        Look at the Numbers: School of Business Interns Consistently Achieve Excellence
+                                        »</a></p>
+                            </div>
+                        </div>
+                        <div class="newsElement">
+                            <img src="News2.jpg" alt="News Headline" class="newsPhoto">
+                            <div class="newsHeadline">
+                                <p><a
+                                        href="https://www.meredith.edu/news/meredith-student-efforts-help-change-north-carolina-consent-law">Meredith
+                                        Student Efforts Help Change North Carolina Consent Law »</a></p>
+                            </div>
+                        </div>
+                        <div class="newsElement">
+                            <img src="News3.jpg" alt="News Headline" class="newsPhoto">
+                            <div class="newsHeadline">
+                                <p><a
+                                        href="https://www.meredith.edu/news/meredith-participates-in-state-of-nc-undergraduate-research-and-creativity-symposium">Meredith
+                                        Participates in State of North Carolina Undergraduate Research and Creativity
+                                        Symposium »</a></p>
+                            </div>
+                        </div>
+                        <div class="newsElement">
+                            <img src="News4.jpg" alt="News Headline" class="newsPhoto">
+                            <div class="newsHeadline">
+                                <p><a
+                                        href="https://www.meredith.edu/news/a-hospitable-tradition-meredith-students-enjoy-a-thanksgiving-meal-with-pre">A
+                                        Hospitable Tradition: Meredith Students Enjoy A Thanksgiving Meal with President
+                                        Allen »</a></p>
+                            </div>
+                        </div>
+                        <div class="lastNewsElement">
+                            <img src="News5.jpeg" alt="News Headline" class="newsPhoto">
+                            <div class="newsHeadline">
+                                <p><a
+                                        href="https://www.meredith.edu/news/meredith-graduate-programs-to-participate-in-raleigh-parade">Meredith
+                                        Graduate Programs Participates in Raleigh Parade »</a></p>
+                            </div>
+                        </div>
+                        <div id="campusNewsContentButton">
+                            <button class="buttonMoreNews">
+                                <p><a href="https://www.meredith.edu/news">Read More</a>
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="events">
+                    <div id="eventsContent">
+                        <h1>Upcoming Events</h1>
+                        <p>Jan 21</p>
+                        <p><a href="https://www.meredith.edu/calendar/event/7153/">Alumnae Book Club January Meeting</a>
+                        </p>
+                        <p>Jan 25</p>
+                        <p><a href="https://www.meredith.edu/calendar/event/7072/">Think Meredith | Open House for High
+                                School Juniors & Seniors</a></p>
+                        <p>Feb 1</p>
+                        <p><a href="https://www.meredith.edu/calendar/event/7076/">Leadership Conference for High School
+                                Juniors</a></p>
+                        <p>Feb 2</p>
+                        <p><a href="https://www.meredith.edu/calendar/event/7080/">Transfer and Wings Adult Education
+                                Information Session</a></p>
+                        <p>Feb 18</p>
+                        <p><a href="https://www.meredith.edu/calendar/event/7154/">Alumnae Book Club February
+                                Meeting</a></p>
+                        <p>Feb 19</p>
+                        <p><a href="https://www.meredith.edu/calendar/event/7413/">MC Theatre Presents: JULIUS
+                                CAESAR</a></p>
+                        <p>Feb 20</p>
+                        <p><a href="https://www.meredith.edu/calendar/event/7413/">MC Theatre Presents: JULIUS
+                                CAESAR</a></p>
+                    </div>
+                </div>
+                <div id="strongStories">
+                    <div id="strongStoriesContent">
+                        <h1 id="strongStoriesTitle">Strong Stories</h1>
+                        <a href="https://www.meredith.edu/goingstrong/marie-johnson"><img src="Strong%20Stories1.jpg"
+                                alt="Marie Johnson"></a>
+                        <h2>Marie Johnson</h2>
+                        <p>Hailing from Banjul, Gambia, Broyhill Fellow Marie Johnson, ’20, says Meredith helped align
+                            her strengths with her career path.</p>
+                        <a href="https://www.meredith.edu/goingstrong/abigail-crooks"><img src="Strong%20Stories2.jpg"
+                                alt="Abigail Crooks"></a>
+                        <h2>Abigail Crooks</h2>
+                        <p>At Meredith, Abigail Crooks, '20 was equipped with skills and resources that allowed her to
+                            secure a job at Cisco months before graduation.</p>
+                        <a href="https://www.meredith.edu/goingstrong/matthew-evans"><img src="Strong%20Stories3.jpg"
+                                alt="Matthew Evans"></a>
+                        <h2>Matthew Evans</h2>
+                        <p id="strongLastLine">Matthew Evans, ’19, decided to pursue his MBA to gain the skills and
+                            knowledge he needed to advance his career.</p>
+                        <div id="strongStoriesContentButton">
+                            <button class="buttonMoreStrong">
+                                <p><a href="https://www.meredith.edu/goingstrong/">Read More</a>
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="footerContent">
+                        <img src="Brand%20lockup%20white.png" alt="Meredith College Going Strong" id="brandLockup">
+                        <div id="collegeInfo">
+                            <p>3800 Hillsborough Street</p>
+                            <p>Raleigh, NC 27607-5298</p>
+                            <p>Phone:<a href="tel:(919) 760-8600"> (919) 760-8600</a></p>
+                            <p>Fax:<a href="tel:(919) 760-8330"> (919) 760-8330</a></p>
+                            <p><a href="tel:1-800-MEREDITH">1-800-MEREDITH</a></p>
+                        </div>
+                        <div id="socialMenu">
+                            <a href="https://www.facebook.com/MeredithCollege"><i
+                                    class="fab fa-facebook-square fa-2x"></i></a>
+                            <a href="https://twitter.com/meredithcollege"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="https://www.instagram.com/meredithcollege/"><i
+                                    class="fab fa-instagram fa-2x"></i></a>
+                            <a href="https://www.youtube.com/MeredithCollege"><i class="fab fa-youtube fa-2x"></i></a>
+                        </div>
+                        <a href="https://www.meredith.edu/online-stores"><img src="Shop%20Online%20Button.png"
+                                alt="Shop Online"></a>
+                        <div id="quickLinks">
+                            <a href="https://www.meredith.edu/a-z">
+                                <p>A-Z</p>
+                            </a>
+                            <a href="https://www.meredith.edu/about/accreditation-nondiscrimination">
+                                <p>Accreditation &
+                                    Nondiscrimination</p>
+                            </a>
+                            <a href="https://www.meredith.edu/about/contact-meredith-college">
+                                <p>Contact Us</p>
+                            </a>
+                            <a href="https://www.meredith.edu/emergency-planning">
+                                <p>Emergency Planning</p>
+                            </a>
+                            <a href="https://www.meredith.edu/beyondstrong/beyondstrong-giving-at-meredith">
+                                <p>Giving at Meredith</p>
+                            </a>
+                            <a href="https://www.meredith.edu/about/privacy-policy">
+                                <p>Privacy Policy</p>
+                            </a>
+                            <a
+                                href="https://www.meredith.edu/human-resources/title-ix-gender-discrimination-sexual-violence">
+                                <p id="quickLastLine">Title IX Information</p>
+                            </a>
+                        </div>
+                        <div id="copyright">
+                            <p>© 2019 Meredith College. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
